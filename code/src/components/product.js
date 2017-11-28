@@ -16,11 +16,13 @@ class Product extends React.Component {
             <li>{this.props.numberInPack} st i förpackningen</li>
           </ul>
         </div>
-          <div className="bottom">
-            <h2>{this.props.price} kr</h2>
-            <button>Köp</button>
-            <p>Leveranstid: {this.props.deliveryTime}</p>
-            </div>
+        <div className="bottom">
+          <h2>{this.props.price} kr</h2>
+          <button>Köp</button>
+        </div>  
+        <div className="delivery">
+          <p>Leveranstid: {this.props.deliveryTime}</p>
+        </div>
       </div>
     )
   }
