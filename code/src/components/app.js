@@ -1,4 +1,5 @@
 import React from "react"
+import Form from "./form"
 import Product from "./product"
 // const productsJson = require("./../products.json")
 
@@ -25,6 +26,7 @@ componentDidMount() {
         <div className="header">
           Produkter
         </div>
+        <Form />
         <div className="product-container">
           {this.state.productList.map((item) => {
           return <Product
