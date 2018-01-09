@@ -19,7 +19,7 @@ class Product extends React.Component {
         <div className="bottom">
           <h2>{this.props.price} kr</h2>
           <button>Köp</button>
-        </div>  
+        </div>
         <div className="delivery">
           <p>Leveranstid: {this.props.deliveryTime}</p>
         </div>
